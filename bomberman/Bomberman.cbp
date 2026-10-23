@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Bomberman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Bomberman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option working_dir="$(PROJECT_DIR)" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-Wall" />
+					<Add option="-std=c11" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Bomberman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option working_dir="$(PROJECT_DIR)" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-std=c11" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/arena.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/entities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/score.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="include/config.h" />
+		<Unit filename="include/arena.h" />
+		<Unit filename="include/entities.h" />
+		<Unit filename="include/game.h" />
+		<Unit filename="include/input.h" />
+		<Unit filename="include/score.h" />
+		<Unit filename="arene.txt" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

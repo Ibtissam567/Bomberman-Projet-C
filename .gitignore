@@ -1,0 +1,22 @@
+# Binaires et compilation
+*.exe
+*.o
+*.obj
+*.a
+*.dll
+bin/
+obj/
+
+# Scores locaux
+scores.txt
+bomberman/scores.txt
+
+# Fichiers temporaires CodeBlocks
+*.layout
+*.depend
+*.cbp.user
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
